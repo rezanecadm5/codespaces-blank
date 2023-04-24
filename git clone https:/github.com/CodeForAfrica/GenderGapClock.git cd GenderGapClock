@@ -1,0 +1,9 @@
+git clone https://github.com/CodeForAfrica/GenderGapClock.git
+cd GenderGapClock
+gulp deploy
+<div id="gender-gap-embed"></div>
+<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+<script>
+    var pymParent = new pym.Parent('gender-gap-embed', 'https://gendergap.africa/', {});
+    </script>
+    
